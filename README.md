@@ -34,6 +34,11 @@ the scores of the decomposed components to ensure uniform distribution across ce
 ## Usage
    1. Rename the folder as "MBIH," subsequently include the "MBIH" folder and its subdirectories in the Matlab path, and ensure correct installation of SPM12.
    2. At the MATLAB prompt, type "MBIH" (Menu options will appear), and press "Enter". A menu will then appear, click on the Images button to continue.
+<p align="center">
+  <img src="https://github.com/AIbySlz/MBIH/blob/main/Surface/method%20surface.jpg" alt="Method Surface Visualization" width="500">
+  <br> <span style="font-size: 0.7em; color: #555;"><strong>Figure 4</strong>: <strong>Method surface</strong></span>
+</p>
+
 ### HCOBE Usage
    3. Click 'HCOBE'. This method is recommended for harmonizing MRI brain images.
    4. Click 'Add a New Site' and select the normalized images of a new site. If it is necessary to delete the image of last site, we can click 'Delete the Latest Site'.
@@ -45,7 +50,7 @@ the scores of the decomposed components to ensure uniform distribution across ce
    10. Click 'Run' to begin harmonization of multi-site brain images.
 <p align="center">
   <img src="https://github.com/AIbySlz/MBIH/blob/main/Surface/HCOBE%20surface.jpg" alt="HCOBE Surface Visualization" width="500">
-  <br> <span style="font-size: 0.7em; color: #555;"><strong>Figure 4</strong>: <strong>HCOBE surface</strong></span>
+  <br> <span style="font-size: 0.7em; color: #555;"><strong>Figure 5</strong>: <strong>HCOBE surface</strong></span>
 </p>
 
 ### PETHarmony Usage
@@ -64,7 +69,7 @@ the scores of the decomposed components to ensure uniform distribution across ce
    14. Click 'Run' to begin harmonization of multi-site brain images.
 <p align="center">
   <img src="https://github.com/AIbySlz/MBIH/blob/main/Surface/PETHarmony%20surface.jpg" alt="PETHarmony Surface Visualization" width="500">
-  <br> <span style="font-size: 0.7em; color: #555;"><strong>Figure 5</strong>: <strong>PETHarmony surface</strong></span>
+  <br> <span style="font-size: 0.7em; color: #555;"><strong>Figure 6</strong>: <strong>PETHarmony surface</strong></span>
 </p>
 
 ## Date
