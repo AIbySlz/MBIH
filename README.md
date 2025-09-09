@@ -1,5 +1,9 @@
 ## MBIH
 A toolbox for multicenter brain images harmonization  
+<p align="center">
+  <img src="https://github.com/AIbySlz/MBIH/blob/main/Surface/surface.png" alt="Toolbox Surface Visualization" width="500">
+  <br> <span style="font-size: 0.7em; color: #555;"><strong>Figure 1</strong>: <strong>Toolbox surface</strong></span>
+</p>
 
 ## Requirements
 * matlab 2020a or later
@@ -13,11 +17,19 @@ When using HCOBE to harmonize the multicenter data, the COBE was firstly used to
 To precisely remove the center effect while preserving biological heterogeneity, the center effect and biological heterogeneity should be further separated. In order to do that, we further decomposed the
  intra-center data using COBE. Since intra-center data were acquired on the same scanner and acquisition protocol, the decomposed heterogeneity space only contained biological heterogeneity. Finally, we
 can accurately obtain the center effect by calculating the differences between inter-center and intra-center heterogeneity space.
+<p align="center">
+  <img src="https://github.com/AIbySlz/MBIH/blob/main/Surface/HCOBE.jpg" alt="HCOBE Theory" width="700">
+  <br> <span style="font-size: 0.7em; color: #555;"><strong>Figure 2</strong>: <strong>The pipeline of preprocessing and HCOBE.</strong></span>
+</p>
 
 ## PETHarmony Method Theory
 The PETHarmony method comprises a linear regression model and singular value decomposition.  Linear regression models decomposed brain images into biological factors and a subject residual profile (SRP).  
 The center effect is inherent in the SRP.  To rectify the center effect, we applied singular value decomposition to further break down the SRP.  Subsequently, we harmonized the center effect in SRP by aligning 
 the scores of the decomposed components to ensure uniform distribution across centers.  Finally, the harmonized brain image was derived by incorporating the biological factors into the adjusted SRP.
+<p align="center">
+  <img src="https://github.com/AIbySlz/MBIH/blob/main/Surface/PETHarmony.jpg" alt="PETHarmony Theory" width="700">
+  <br> <span style="font-size: 0.7em; color: #555;"><strong>Figure 2</strong>: <strong>The pipeline of preprocessing and PETHarmony.</strong></span>
+</p>
 
 ## Usage
    1. Rename the folder as "MBIH," subsequently include the "MBIH" folder and its subdirectories in the Matlab path, and ensure correct installation of SPM12.
