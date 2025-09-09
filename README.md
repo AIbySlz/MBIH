@@ -28,12 +28,12 @@ The center effect is inherent in the SRP.  To rectify the center effect, we appl
 the scores of the decomposed components to ensure uniform distribution across centers.  Finally, the harmonized brain image was derived by incorporating the biological factors into the adjusted SRP.
 <p align="center">
   <img src="https://github.com/AIbySlz/MBIH/blob/main/Surface/PETHarmony.jpg" alt="PETHarmony Theory" width="700">
-  <br> <span style="font-size: 0.7em; color: #555;"><strong>Figure 2</strong>: <strong>The pipeline of preprocessing and PETHarmony.</strong></span>
+  <br> <span style="font-size: 0.7em; color: #555;"><strong>Figure 3</strong>: <strong>The pipeline of preprocessing and PETHarmony.</strong></span>
 </p>
 
 ## Usage
    1. Rename the folder as "MBIH," subsequently include the "MBIH" folder and its subdirectories in the Matlab path, and ensure correct installation of SPM12.
-   2. At the MATLAB prompt, type "MBIH" (Menu options will appear), and press "Enter".
+   2. At the MATLAB prompt, type "MBIH" (Menu options will appear), and press "Enter". A menu will then appear, click on the Images button to continue.
 ### HCOBE Usage
    3. Click 'HCOBE'. This method is recommended for harmonizing MRI brain images.
    4. Click 'Add a New Site' and select the normalized images of a new site. If it is necessary to delete the image of last site, we can click 'Delete the Latest Site'.
@@ -43,6 +43,10 @@ the scores of the decomposed components to ensure uniform distribution across ce
    8. Select the save path for harmonized images. 'Previous Dir' stands for saving to the original path; 'Custom Dir ' stands for custom saving path; 'Re-Custom Dir ' stands for re-custom saving path.
    9. Choose whether to keep the brain mask.
    10. Click 'Run' to begin harmonization of multi-site brain images.
+<p align="center">
+  <img src="https://github.com/AIbySlz/MBIH/blob/main/Surface/HCOBE%20surface.jpg" alt="HCOBE Surface Visualization" width="500">
+  <br> <span style="font-size: 0.7em; color: #555;"><strong>Figure 4</strong>: <strong>HCOBE surface</strong></span>
+</p>
 
 ### PETHarmony Usage
    3. Click 'PETHarmony'. This method is recommended for harmonizing PET brain images.
@@ -58,6 +62,10 @@ the scores of the decomposed components to ensure uniform distribution across ce
    12. The "Save Mask" option determines whether to save the mask used in the harmonization process will be saved.
    13. The "Save Site Feature" option is used to determine whether to save the components generated in the singular value decomposition will be saved.
    14. Click 'Run' to begin harmonization of multi-site brain images.
+<p align="center">
+  <img src="https://github.com/AIbySlz/MBIH/blob/main/Surface/PETHarmony%20surface.jpg" alt="PETHarmony Surface Visualization" width="500">
+  <br> <span style="font-size: 0.7em; color: #555;"><strong>Figure 5</strong>: <strong>PETHarmony surface</strong></span>
+</p>
 
 ## Date
 2024.11.12
